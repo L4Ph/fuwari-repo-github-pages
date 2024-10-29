@@ -32,8 +32,8 @@ const oklchToHex = str => {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://l4ph.github.io/',
-  base: '/fuwari-repo-github-pages',
-  trailingSlash: 'always',
+  base: '/fuwari-repro-github-pages',
+  trailingSlash: "never",
   integrations: [
     tailwind(),
     swup({
